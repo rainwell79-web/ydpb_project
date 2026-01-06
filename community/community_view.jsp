@@ -1,0 +1,78 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ include file="../includes/header.jsp" %>
+				<script>MENU_ID = 'DA';</script>
+                <!-- contents -->
+                <div id="contnets" class="contents-board-view community-view inner">
+                    <div class="board-info">
+                        <span>조회수</span>
+                        <b class="hit">12</b>
+                        <span>작성일</span>
+                        <time datetime="2025-25-09">2025.12.19</time>
+                    </div>
+                    <table class="table table-form">
+                        <colgroup>
+                            <col class="col1">
+                            <col class="col2">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">
+                                    <strong class="text-title">2025년 영등포본동 주민자치사업 결과보고</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="td-content">
+                                    2025년 영등포본동 주민자치사업 결과보고
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">행정동</th>
+                                <td>영등포본동</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">파일</th>
+                                <td>
+                                    <ul class="attach-files">
+                                        <li>
+                                            <a href="#" class="attach-link">
+                                                <span class="icon pdf">PDF 파일</span>
+                                                <span>pdf 파일 영등포본동 주민자치 동특화사업 결과보고.pdf</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="attach-link">
+                                                <span class="icon xlsx">xlsx 파일</span>
+                                                <span>2024 주민자치위원회 위원 인적사항 공고（영등포본동.xlsx</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">부서</th>
+                                <td>영등포본동</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="board-btns">
+                        <a href="dong_news_list.html" class="btn btn-write list">목록</a>
+                    </div>
+                    
+                    <ul class="board-move-post">
+                        <li>
+                            <b>이전글</b>
+                            <div class="link-post">
+                                <a href="#">2026년 상반기 청년 일자리사업 참여자 모집 안내</a>
+                            </div>
+                        </li>
+                        <li>
+                            <b>다음글</b>
+                            <div class="link-post">
+                                <a href="#">2026년 상반기 청년 일자리사업 참여자 모집 안내</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- //contents -->
+<%@ include file="../includes/footer.jsp" %>
